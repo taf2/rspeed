@@ -2,3 +2,6 @@ Ruby Bindings to Page Speed SDK
 
 Started this project back when the API was released... figure i'll get it out on github
 my plan was to integrate this code with webkit to build a .har file for a complete picture...
+
+I first downloaded the page speed api 1.7 and placed the ext dir in the root folder.  Cd into ext and run 
+ruby extconf.rb && make 

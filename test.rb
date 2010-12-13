@@ -3,7 +3,7 @@ require 'curb'
 require 'hpricot'
 require 'speed_core'
 
-c = Curl::Easy.new("http://muglazgo.com/")
+c = Curl::Easy.new("http://captico.com/")
 c.follow_location = true
 c.headers["Accept-Encoding"] = "gzip, deflate"
 c.headers["Content-Encoding"] = "gzip"
